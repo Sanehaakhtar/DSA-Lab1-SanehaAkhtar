@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// a function to perform naive search of pattern in text
 int naiveSearch(string &text, string &pattern)
 {
     // size of text and pattern
@@ -44,6 +44,10 @@ int main()
     string pattern4 = "";
     cout << "Test Case 4: ";
     cout << (naiveSearch(text, pattern4)) << endl;
+
+     string pattern5 = "helmeow";
+    cout << "Test Case 5: ";
+    cout << (naiveSearch(text, pattern5)) << endl;
 
     return 0;
 }
